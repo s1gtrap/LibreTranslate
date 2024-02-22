@@ -1,4 +1,4 @@
-FROM arm64v8/python:3.10.10-slim-bullseye as builder
+FROM armv8/python:3.10.10-slim-bullseye as builder
 
 WORKDIR /app
 
